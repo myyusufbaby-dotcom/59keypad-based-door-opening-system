@@ -1,0 +1,28 @@
+{
+    "name": "59.keypad based door opening system",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "keypad": "github:lioujj/pxt-keypad#febb778e65a5035beadfde2424f02a110d1460c4",
+        "motor": "github:dfrobot/pxt-motor#3af4091584abe939ea773e09a82da683dbff0f70",
+        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
